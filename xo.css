@@ -1,0 +1,111 @@
+.game {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+  }
+ .squares {
+
+    background-color:  rgba(217, 170, 231, 0.795);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: double;
+    border-color: blueviolet;
+  }
+  .title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: -100px;
+    color: rgb(105, 44, 129);
+    font-style: oblique;
+  }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+ 
+}
+.lists{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 30px;
+
+  
+}
+.list{
+  margin-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.listitem{
+  text-decoration: none;
+  color: rgb(212, 143, 233);
+}
+.listitem:hover{
+  text-decoration: underline;
+  color: #8a8383;
+}
+
+.x {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(46, 46, 66, 0.664);
+}
+
+.o {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(119, 66, 66);
+}
+#logo{
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+}
+.head{
+  margin: 50px;
+  margin-left: 70px;
+  margin-top: 150px;
+  color: rgb(156, 53, 187);
+  font: bold;
+  font-size: 40px;
+  font-style:oblique;
+}
+.p{
+  margin: 50px;
+  margin-left: 80px;
+  color: rgb(126, 16, 141);
+  font: bold;
+  font-size: 28px;
+  font-style:oblique;
+
+
+}
+.btn{
+  margin-left: 90px;
+  width:140px ;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  background-color: rgb(228, 227, 227);
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+.btn:hover{
+  background-color: #8a8383;
+  cursor: pointer;
+}

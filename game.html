@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="xo.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: linear-gradient(to left, rgba(114, 30, 114, 0.856), rgba(129, 74, 129, 0.795),rgba(207, 94, 207, 0.849));
+        }
+
+
+    </style>
+
+    <div class="nav">
+        <img src="imgs/logo.png" alt="" id="logo">
+        <nav id="navigator">
+            <ul class="lists">
+                <a href="index.html" class="listitem"><li class="list">Home</li></a>
+                <a href="game.html"class="listitem"><li class="list">Game</li></a>
+                <a href="" class="listitem"><li class="list">About</li></a>
+            </ul>
+        </nav>
+    </div>
+    <div class="title"><h1>Tic-Tac-Toe</h1></div>
+    <div class="game">
+
+        <div class="squares" id="item1" onclick="game(this.id)" ></div>
+        <div class="squares" id="item2" onclick="game(this.id)"></div>
+        <div class="squares" id="item3" onclick="game(this.id)"></div>
+        <div class="squares" id="item4" onclick="game(this.id)"></div>
+        <div class="squares" id="item5" onclick="game(this.id)"></div>
+        <div class="squares" id="item6" onclick="game(this.id)"></div>
+        <div class="squares" id="item7" onclick="game(this.id)"></div>
+        <div class="squares" id="item8" onclick="game(this.id)"></div>
+        <div class="squares" id="item9" onclick="game(this.id)"></div>
+    </div>
+    <script src="xo.js"></script>
+</body>
+</html>
